@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ini-parser" Version="2.5.2" />
+    <PackageReference Include="LiveChartsCore.SkiaSharpView.WinForms" Version="2.0.0-beta.700" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RestClient">
+      <HintPath>..\..\RestClient\RestClient\bin\Release\RestClient.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
